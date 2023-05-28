@@ -1,0 +1,21 @@
+.big_class {
+	border-left: 4px solid #71c8fd;
+	transform: scale(1.09);
+	background-color: white;
+	box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+		rgba(var(--lightBlue)) 0px 50px 100px -20px,
+		rgba(var(--lightBlue)) 0px 20px 40px -30px;
+}
+
+.big_class img {
+	filter: grayscale(80%);
+}
+
+.done_tasks p {
+	text-decoration: line-through;
+	color: #dcdcdc;
+}
+
+.done_tasks img {
+	display: none;
+}
